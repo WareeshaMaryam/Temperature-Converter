@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatre Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="card">
+        <h1>Temperature Converter</h1>
+
+        <div id="enter-temp">
+            <label class="enter-Text">Enter Temperature:</label>
+            <input type="number" class="enter-Num" id="numValue">
+        </div>
+        <div id="Option-temp1">
+            <label class="Option-temp-text">From:</label>
+            <select class="temp-option" id="option1">
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Celsius">Celsius</option>
+            </select>
+        </div>
+        <div id="Option-temp2">
+            <label class="Option-temp-text1">To:</label>
+            <select class="temp-option" id="option2">
+                <option value="Celsius">Celsius</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+            </select>
+        </div>
+        <div id="buttons">
+            <button class="butts" id="btn1" onclick="convert()"> <a href="#">Convert</a></button>
+            <button class="butts" id="btn2" onclick="reset()"> <a href="#">Reset</a></button>
+        </div>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js">
+       
+    </script>
+
+
+</body>
+
+</html>
